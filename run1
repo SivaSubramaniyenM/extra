@@ -1,0 +1,628 @@
+Updated todo list
+
+Inspect analysis evidence and IR
+
+Searched for regex `EvoIR|SafetyIR|dataclass|class .*Result|class .*Evidence` (`**/analysis/**`), 30 results
+
+No matches found. Your search pattern might be excluded completely by either the search.exclude settings or .*ignore files.
+If you believe that it should have results, you can check into the .*ignore files and the exclude setting (here are some excluded patterns for reference:[**/node_modules,**/bower_components,**/*.code-search]).
+Then if you want to include those files you can call the tool again by setting "includeIgnoredFiles" to true.
+
+Searched for regex `class Test|unittest|pytest|monkeypatch|parametrize` (`**/tests/**`), 155 results
+
+Searched for files matching `**/analysis/**/*.py`, 19 matches
+
+Searched for regex `EvoIR|evo.?ir|evolutionary|EA inference|seven.role`, 33 results
+
+Searched for regex `^` (`**/main.py`), 313 results
+
+Searched for regex `^` (`**/parser/ast_parser.py`), 501 results
+
+Searched for regex `^` (`**/cfg/cfg_builder.py`), 501 results
+
+No matches found. Your search pattern might be excluded completely by either the search.exclude settings or .*ignore files.
+If you believe that it should have results, you can check into the .*ignore files and the exclude setting (here are some excluded patterns for reference:[**/node_modules,**/bower_components,**/*.code-search]).
+Then if you want to include those files you can call the tool again by setting "includeIgnoredFiles" to true.
+
+Read 
+
+Read , lines 1 to 520
+
+Read 
+
+Read , lines 1 to 180
+
+Read , lines 1 to 320
+
+Read , lines 490 to 611
+
+Read , lines 300 to 499
+
+Read 
+
+Read , lines 300 to 395
+
+Read 
+
+Read , lines 1 to 360
+
+Read , lines 1 to 280
+
+Read , lines 1 to 370
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read , lines 1 to 120
+
+Read , lines 1 to 170
+
+Read , lines 1 to 120
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read , lines 1 to 300
+
+Ran terminal command:  grep -nE '^(def parse_source|def parse_file|class ASTParser|    def _base|    def _visit_generic|class BasicBlock|class CFG:|    def to_dict|class CFGBuilder|    def build\(|    def build_module|    def build_source|def build_cfg|class (SourceRef|FunctionNode|LoopNode|CapabilityNode|CFGBlockNode|TaintFlowEdge|GraphEdge|ManifestRoot)|def build_safety_ir|def build_safety_ir_from_source|def safety_ir_to_json|class (ResourceFlag|ResourceReport|CapabilityUse|CapabilityReport|ChainStep|TaintTag|TaintFinding|SafetyContext|SafetyPolicyDecision|SafetyDecision)|def analyze_source|def analyze_to_dict|def generate_manifest_from_source|class NotebookExecutionParser|    def parse_data|class SandboxedExecutionOrchestrator|    def execute_units|    def execute_unit|^def main|^class Test|^if __name__|^from |^import )' /home/intel/intel/evosafe/parser/ast_parser.py /home/intel/intel/evosafe/cfg/cfg_builder.py /home/intel/intel/evosafe/analysis/safety_ir/_model.py /home/intel/intel/evosafe/analysis/safety_ir/safety_ir_builder.py /home/intel/intel/evosafe/analysis/resource/_model.py /home/intel/intel/evosafe/analysis/capability/_model.py /home/intel/intel/evosafe/analysis/taint/_model.py /home/intel/intel/evosafe/analysis/decision/engine.py /home/intel/intel/evosafe/analysis/manifest/safety_manifest_generator.py /home/intel/intel/evosafe/parser/notebook_execution_parser.py /home/intel/intel/evosafe/sandbox/execution_orchestrator.py /home/intel/intel/evosafe/main.py /home/intel/intel/evosafe/examples/api_quickstart.py /home/intel/intel/evosafe/examples/notebook_pipeline.py /home/intel/intel/evosafe/tests/test_ast_parser.py /home/intel/intel/evosafe/tests/test_cfg_builder.py /home/intel/intel/evosafe/tests/test_safety_ir.py /home/intel/intel/evosafe/tests/test_execution_orchestrator.py
+
+Read , lines 1 to 280
+
+Searched for regex `Test|def test_|if __name__` (`**/tests/test_safety_ir.py`), 18 results
+
+Searched for regex `Test|def test_|if __name__` (`**/tests/test_ast_parser.py`), 61 results
+
+Searched for regex `Test|def test_|if __name__` (`**/tests/test_cfg_builder.py`), 50 results
+
+Searched for regex `Test|def test_|if __name__` (`**/tests/test_execution_orchestrator.py`), 17 results
+
+Read 
+
+Read 
+
+Read 
+
+Ran terminal command:  grep -nE '^(def parse_source|def parse_file|class ASTParser|    def _base|    def _visit_generic|class BasicBlock|class CFG:|class CFGBuilder|    def basic_blocks|    def branches|    def loops|    def to_dict|    def build\(|    def build_module|    def build_source|def build_cfg|class (SourceRef|FunctionNode|LoopNode|CapabilityNode|CFGBlockNode|TaintFlowEdge|GraphEdge|ManifestRoot)|def build_safety_ir|def build_safety_ir_from_source|def safety_ir_to_json|class (ResourceFlag|ResourceReport|CapabilityUse|CapabilityReport|ChainStep|TaintTag|TaintFinding|SafetyContext|SafetyPolicyDecision|SafetyDecision)|def analyze_source|def analyze_to_dict|def generate_manifest_from_source|class NotebookExecutionParser|    def parse_data|class SandboxedExecutionOrchestrator|    def execute_units|    def execute_unit|^def main|^class Test)' /home/intel/intel/evosafe/parser/ast_parser.py /home/intel/intel/evosafe/cfg/cfg_builder.py /home/intel/intel/evosafe/analysis/safety_ir/_model.py /home/intel/intel/evosafe/analysis/safety_ir/safety_ir_builder.py /home/intel/intel/evosafe/analysis/resource/_model.py /home/intel/intel/evosafe/analysis/capability/_model.py /home/intel/intel/evosafe/analysis/taint/_model.py /home/intel/intel/evosafe/analysis/decision/engine.py /home/intel/intel/evosafe/analysis/manifest/safety_manifest_generator.py /home/intel/intel/evosafe/parser/notebook_execution_parser.py /home/intel/intel/evosafe/sandbox/execution_orchestrator.py /home/intel/intel/evosafe/main.py /home/intel/intel/evosafe/examples/api_quickstart.py /home/intel/intel/evosafe/examples/notebook_pipeline.py /home/intel/intel/evosafe/tests/test_ast_parser.py /home/intel/intel/evosafe/tests/test_cfg_builder.py /home/intel/intel/evosafe/tests/test_safety_ir.py /home/intel/intel/evosafe/tests/test_execution_orchestrator.py
+
+Read 
+
+Read , lines 1 to 90
+
+### Repository inspection and proposed design
+
+The repository has no existing EvoIR or shared `AnalysisResult`. Its safety pipeline is split across AST parsing, CFG construction, taint/capability/resource analysis, decisions, and Safety IR. AST nodes preserve source locations; CFG blocks retain the corresponding statements. Existing findings use structured records with locations and explanatory evidence, while Safety IR serializes typed nodes and edges. The test suite uses focused `unittest` cases and small Python snippets.
+
+**Proposed small extension:** add an independent `analysis.ea_inference` package with role/evidence/confidence models and AST-first detectors using CFG as supporting control-flow evidence. Expose inference as an optional API; do not alter existing analyzers, safety decisions, verdict semantics, or Safety IR. There is no current `AnalysisResult` to extend, and creating or folding EA findings into the safety-focused IR would couple separate concerns. This provides EA-role output callers can compose alongside existing results.
+
+The seven detectors will use multiple structural clues and source locations, with conservative results when evidence is weak: population collections and iteration; candidate-dependent scoring; ranking/filtering/sampling; in-place or copy-then-modify candidate changes; multi-parent recombination; offspring/survivor population updates; and bounded or condition-controlled evolutionary loops, distinguishing statically bounded, condition-based, and unknown termination. Variable names alone will not establish a role.
+
+I’ll now implement this isolated layer and its independent positive/negative tests, then run both the new tests and the existing suite.
+
+No matches found. Your search pattern might be excluded completely by either the search.exclude settings or .*ignore files.
+If you believe that it should have results, you can check into the .*ignore files and the exclude setting (here are some excluded patterns for reference:[**/node_modules,**/bower_components,**/*.code-search]).
+Then if you want to include those files you can call the tool again by setting "includeIgnoredFiles" to true.
+
+Read 
+
+Read 
+
+Read , lines 1 to 90
+
+Read 
+
+Read , lines 104 to 220
+
+Read , lines 220 to 400
+
+Generating patch (102 lines) in 
+
+
+```
+
+```
+
+
+Read , lines 400 to 480
+
+Generating patch (433 lines) in 
+
+
+```
+
+```
+
+
+Created 8 todos
+
+Generating patch (61 lines) in , 
+
+
+```
+
+```
+
+```
+
+```
+
+
+Generating patch (47 lines) in , 
+
+
+```
+
+```
+
+```
+
+```
+
+
+Generating patch (249 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  python -m unittest tests.test_ea_inference -v
+
+Checked , , no problems found
+
+Ran terminal command:  python3 -m unittest tests.test_ea_inference -v
+
+Searched for files matching `**/{requirements*.txt,pyproject.toml,setup.cfg}`, 1 match
+
+Read 
+
+Read 
+
+Ran terminal command:  python3 -m pip install networkx
+
+Ran terminal command:  python3 -m venv /tmp/evosafe-venv && /tmp/evosafe-venv/bin/python -m pip install networkx
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest tests.test_ea_inference -v
+
+Generating patch (21 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (28 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (9 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest tests.test_ea_inference -v
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest discover -s tests -v
+
+Checked , , no problems found
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Read 
+
+Searched for regex `def analyze_source|def analyze_to_dict` (`**/analysis/taint/taint_engine.py`), 3 results
+
+Searched for regex `def analyze_source|def analyze_to_dict` (`**/analysis/capability/capability_analyzer.py`), 2 results
+
+Searched for regex `def analyze_source|def analyze_to_dict` (`**/analysis/resource/resource_estimator.py`), 4 results
+
+Read , lines 675 to 703
+
+Read , lines 340 to 395
+
+Generating patch (15 lines) in 
+
+Generating patch (16 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (99 lines) in , 
+
+
+```
+
+```
+
+```
+
+```
+
+
+Generating patch (32 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (6 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest tests.test_ea_inference -v
+
+Checked , , , no problems found
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest discover -s tests -q
+
+Generating patch (19 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest discover -s tests -q
+
+Checked , , , no problems found
+
+Ran terminal command:  git -C /home/intel/intel/evosafe status --short && git -C /home/intel/intel/evosafe diff --check && git -C /home/intel/intel/evosafe diff --stat
+
+Searched for regex `class EARole|class EAConfidence|class EAEvidence|class EAInferenceReport|class TerminationKind` (`**/analysis/ea_inference/_model.py`), 6 results
+
+Searched for regex `def analyze_ea_roles|def _detect_population_and_fitness|def _detect_selection|def _detect_mutation|def _detect_crossover|def _detect_replacement|def _detect_termination` (`**/analysis/ea_inference/inference.py`), 7 results
+
+Searched for regex `class AnalysisResult|def analyze_program` (`**/analysis/pipeline.py`), 2 results
+
+Searched for regex `class Test|def test_` (`**/tests/test_ea_inference.py`), 28 results
+
+## Implemented
+
+The EA layer is optional and structurally separate from the existing safety pipeline. The repository has no EvoIR or shared `AnalysisResult`; I added an optional composite result while leaving Safety IR and the existing decision rules unchanged.
+
+- Added seven AST/CFG-based detectors in `inference.py:177-429`, exposed through analysis/ea_inference.
+- Added `AnalysisResult` and `analyze_program()` in `pipeline.py:16-35`. EA inference is opt-in with `include_ea=True`; the safety verdict is computed only from the existing taint, capability, and resource reports.
+- Exported the public API from `__init__.py`.
+- Added 22 focused tests in `test_ea_inference.py`.
+
+## Detector and evidence summary
+
+Population and fitness detection require candidate-dependent activity during collection iteration; selection looks for ranking, filtering, and sampling of an inferred candidate collection. Mutation looks for candidate representation updates, crossover for multi-parent combination, and replacement for population reconstruction or offspring insertion. Termination distinguishes bounded built-in iteration, condition-controlled loops, and unknown/unbounded EA loops.
+
+Findings use `EAEvidence` and `EARoleFinding` in `_model.py:10-84`. Evidence records source locations, AST type, snippet, and stable CFG references. Confidence is `HIGH`, `MEDIUM`, or `LOW`—an ordinal measure of structural evidence, not a probability. Insufficient evidence remains undetected.
+
+## Validation and limitations
+
+The focused EA tests passed, and the full suite passed: **324 tests**. The unsafe-source integration test confirms EA enrichment does not change an `UNSAFE` verdict. The base interpreter lacked the repository-documented `networkx` dependency, so tests ran in a temporary virtual environment; no project dependency files were changed.
+
+This is conservative static inference, not full interprocedural data-flow analysis. Opaque helpers, indirect aliases, and dynamically produced iterables may be missed or left unknown. Resource-bound enrichment remains out of scope; a suitable next step is to correlate EA loop and population-size evidence with the existing resource estimator without weakening any safety finding.
+
+**Cleanup note:** running the tests refreshed pre-existing tracked Python bytecode cache artifacts. No other safety-analysis source modules or Safety IR structures were changed.
+
+Made changes.
+                                                                                                           
+Updated todo list
+
+Inspect IR integration points
+
+Read 
+
+Read 
+
+Read , lines 1 to 340
+
+Read 
+
+Read , lines 1 to 340
+
+Read 
+
+Read 
+
+Searched for regex `from_dict|ManifestRoot|build_safety_ir|verdict_hint|analyze_program|AnalysisResult|analyze_ea_roles|decision` (`**/analysis/**`), 94 results
+
+Searched for regex `verdict independence|include_ea|ea_roles|SafetyIR|manifest|verdict_hint|AnalysisResult|analyze_program|from_dict` (`**/tests/**`), 75 results
+
+Searched for files matching `**/analysis/safety_ir/**`, 6 matches
+
+Searched for files matching `**/analysis/ea_inference/**`, 6 matches
+
+Read , lines 300 to 499
+
+Read , lines 280 to 452
+
+Searched for regex `build_safety_ir|safety_ir_to_json|ManifestRoot|verdict_hint|nodes\[|taint_flows|graph_edges` (`**/*.py`), 117 results
+
+Read , lines 230 to 275
+
+Read 
+
+Read 
+
+Read 
+
+Read , lines 130 to 158
+
+Read 
+
+Searched for text `from_dict` (`**/analysis/**`), 5 results
+
+Read , lines 190 to 285
+
+Read 
+
+Read 
+
+Read 
+
+Read , lines 1 to 260
+
+Read 
+
+Read 
+
+Searched for regex `EvoIR|evo_ir|evolutionary IR|certificate|certif` (`**/analysis/**`), 3 results
+
+Read , lines 1 to 45
+
+Read , lines 430 to 600
+
+Read , lines 1 to 260
+
+Read , lines 1 to 95
+
+Read , lines 20 to 148
+
+Searched for regex `ManifestRoot|verdict_hint|build_safety_ir_from_source|safety_ir_to_json` (`**/*.py`), 42 results
+
+Read 
+
+Read , lines 380 to 499
+
+Read 
+
+Read , lines 1 to 180
+
+Read 
+
+Read , lines 250 to 420
+
+Read , lines 120 to 221
+
+Read , lines 1 to 130
+
+Read , lines 220 to 275
+
+Read 
+
+Read , lines 160 to 211
+
+### Inspection report — before edits
+
+**Recommendation:** extend the existing Safety IR root, `ManifestRoot`, rather than create a competing EvoIR class. It is already the versioned, machine-readable graph representation, retains `verdict_hint`, and is the IR that the manifest verifier can consume. The separate `AnalysisResult` in `pipeline.py` composes reports but is not a graph IR and has no deserializer.
+
+**Existing representation:** `_model.py` defines `SourceRef`, function/loop/capability/CFG nodes, taint-flow and graph edges, and `ManifestRoot`. `ManifestRoot` already has metadata, typed graph collections, and `verdict_hint`. The builder records a compact projection of safety results, but not the complete analyzer reports or full decision trace. There is no EvoIR and no IR `from_dict`/deserializer.
+
+**Evidence and EA results:** safety analyzers already preserve structured findings and provenance in their report dictionaries. EA reports in `_model.py` already represent all seven roles, detection status, structural confidence, evidence descriptions, source locations, AST type/snippet, and CFG references. The CFG references are stable textual references, not IDs of Safety IR CFG nodes.
+
+**Certificate boundary:** the safety manifest is a separate hashed certificate. Its verifier checks manifest integrity and compares the IR’s `verdict_hint` with the manifest verdict. I will not change manifest contents or verdict semantics.
+
+**Smallest compatible extension:**
+- Add `safety_facts`, optional `ea_roles`, normalized `evidence`, and the full `decision` to `ManifestRoot`; keep existing nodes, edges, and `verdict_hint`.
+- Add opt-in EA inference to `build_safety_ir_from_source()`. When disabled, represent EA roles as absent; when enabled but inconclusive, preserve all roles as undetected/low confidence.
+- Keep the decision computation based exclusively on existing taint, capability, resource, and policy inputs. EA data will not participate.
+- Bump the IR version for the additive schema. No deserializer change is needed because none exists.
+- Modify the Safety IR model/builder/exports and its tests. Leave `pipeline.py`, manifest generation/verification, and resource estimation unchanged unless validation reveals a necessary compatibility issue.
+
+I’ll implement this additive extension and verify the requested EA/non-EA and SAFE/UNSAFE combinations.
+
+Read , lines 316 to 355
+
+Read , lines 15 to 75
+
+Read , lines 180 to 270
+
+Read , lines 400 to 499
+
+Generating patch (20 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (161 lines) in 
+
+
+```
+
+```
+
+
+Created 4 todos
+
+Generating patch (123 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest tests.test_safety_ir -v
+
+Generating patch (10 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (6 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  /tmp/evosafe-venv/bin/python -m unittest tests.test_safety_ir -v
+
+Generating patch (6 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  PYTHONDONTWRITEBYTECODE=1 /tmp/evosafe-venv/bin/python -m unittest discover -s tests -q
+
+Checked , , , , no problems found
+
+Added 7 todos
+
+Ran terminal command:  PYTHONDONTWRITEBYTECODE=1 /tmp/evosafe-venv/bin/python -c 'import json; from analysis.safety_ir import build_safety_ir_from_source; ir=build_safety_ir_from_source("population = initialize()\nfor individual in population:\n    score = objective(individual)\n", source_name="example.py", include_ea=True); data=ir.to_dict(); roles=data["ea_roles"]["roles"]; print(json.dumps({"node_type":data["node_type"],"ir_version":data["ir_version"],"verdict_hint":data["verdict_hint"],"ea_roles":{"population":roles["population"],"fitness_evaluation":roles["fitness_evaluation"]},"evidence":[e for e in data["evidence"] if e["analysis"] == "ea_inference"]}, indent=2))'
+
+Generating patch (11 lines) in 
+
+
+```
+
+```
+
+
+Generating patch (15 lines) in 
+
+
+```
+
+```
+
+
+Ran terminal command:  PYTHONDONTWRITEBYTECODE=1 /tmp/evosafe-venv/bin/python -m unittest discover -s tests -q
+
+Checked , , , , , no problems found
+
+Ran terminal command:  PYTHONDONTWRITEBYTECODE=1 /tmp/evosafe-venv/bin/python -c 'import json; from analysis.safety_ir import build_safety_ir_from_source; d=build_safety_ir_from_source("population = initialize()\nfor individual in population:\n    score = objective(individual)\n", source_name="example.py", include_ea=True).to_dict(); roles=d["ea_roles"]["roles"]; print(json.dumps({"node_type":d["node_type"],"ir_version":d["ir_version"],"verdict_hint":d["verdict_hint"],"safety_facts":{"taint_total":d["safety_facts"]["taint"]["total"],"resource_risk":d["safety_facts"]["resource"]["risk_score"]},"ea_roles":{"population":{"detected":roles["population"]["detected"],"confidence":roles["population"]["confidence"],"evidence":roles["population"]["evidence"][0]},"fitness_evaluation":{"detected":roles["fitness_evaluation"]["detected"],"confidence":roles["fitness_evaluation"]["confidence"],"evidence":roles["fitness_evaluation"]["evidence"][0]}},"evidence_count":len(d["evidence"])}, indent=2))'
+
+Ran terminal command:  git -C /home/intel/intel/evosafe status --short && git -C /home/intel/intel/evosafe diff --check
+
+## Implemented
+
+The existing Safety IR is extended; no duplicate EvoIR class was introduced. Its root remains `ManifestRoot`, with the existing graph nodes, edges, and `verdict_hint` preserved. The additive schema is version **1.1**.
+
+### Representation and independence
+
+- `ManifestRoot` now serializes complete `safety_facts` (taint, capability, and resource reports), optional `ea_roles`, normalized `evidence`, and the full `decision`. The builder is in `safety_ir_builder.py`; the model is in `_model.py`.
+- EA inference is opt-in through `include_ea=True` on `build_safety_ir_from_source()`. Disabled inference serializes as `ea_roles: null`; enabled inference with insufficient evidence still serializes all roles as undetected with low confidence.
+- The decision still uses only the existing safety reports and policies. `verdict_hint` remains aligned with that decision. The safety manifest/certificate and resource estimator were not changed.
+- Confidence remains `HIGH`, `MEDIUM`, or `LOW`, and IR metadata identifies it as structural evidence strength, not probability.
+
+Evidence records retain analysis and kind, source location, explanation, confidence and role where applicable, plus analyzer-specific details. EA details preserve AST type/snippet and the detector’s stable CFG references. These are not IDs of the Safety IR CFG nodes.
+
+### Tests and validation
+
+Added coverage in `test_safety_ir.py` for all seven roles, non-EA and partial-EA programs, low/unknown evidence, all four SAFE/UNSAFE EA/non-EA combinations, unchanged verdicts, and deterministic JSON serialization. `test_ea_inference.py` also gained a regression case distinguishing population traversal from process termination.
+
+**All 333 tests passed.** JSON parsing is tested; the repository has no IR deserializer, so none was added.
+
+### Example serialized output
+
+Abbreviated excerpt for an EA program containing candidate iteration and scoring:
+
+```json
+{
+  "node_type": "ManifestRoot",
+  "ir_version": "1.1",
+  "verdict_hint": "SAFE",
+  "safety_facts": {
+    "taint": { "total": 0 },
+    "resource": { "risk_score": "LOW" }
+  },
+  "ea_roles": {
+    "roles": {
+      "population": {
+        "detected": true,
+        "confidence": "HIGH",
+        "evidence": [{
+          "kind": "candidate_iteration",
+          "line": 2,
+          "ast_node": "For",
+          "snippet": "for individual in population:\n    score = objective(individual)",
+          "cfg_blocks": ["<module>:loop_header@2"]
+        }]
+      },
+      "fitness_evaluation": {
+        "detected": true,
+        "confidence": "HIGH",
+        "evidence": [{
+          "kind": "candidate_dependent_call",
+          "line": 3,
+          "ast_node": "Assign",
+          "snippet": "score = objective(individual)"
+        }]
+      }
+    }
+  },
+  "decision": { "verdict": "SAFE" }
+}
+```
+
+### Files changed for this integration
+
+- `_model.py`
+- `safety_ir_builder.py`
+- `inference.py`
+- `test_safety_ir.py`
+- `test_ea_inference.py`
+
+**Limitations:** CFG evidence is retained as stable textual references rather than graph-node links. The IR has JSON serialization but no deserialization API. Test execution also refreshed pre-existing tracked Python bytecode caches, as noted previously.
+
+Completed: *Inspect existing repository architecture* (1/12)
+
+Made changes.                                                                                                          
